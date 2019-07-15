@@ -13,5 +13,5 @@ ZIPCODE(target_path,target_name,source_path,except_dir,except_file)
  - target_path：存放压缩包目标目录，缺省为当前目录
  - target_name：目标压缩包名称，缺省为test.zip
  - source_path：源文件夹路径，缺省为当前目录
- - except_dir：需要除去的文件夹列表，缺省为空
+ - except_dir：需要除去的文件夹列表，缺省为空，推荐用法是除去文件夹中存放数据、模型大文件等的文件夹
  - except_file：需要除去的文件名，缺省为空
