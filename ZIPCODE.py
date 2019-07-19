@@ -41,9 +41,7 @@ def zip_file_path(input_path, output_path, output_name,except_dir = [],except_fi
     f.close()
     return output_path + r"/" + output_name
 
-
-class ZIPCODE():
-    def __init__(self,target_path = './',target_name = 'test.zip',source_path = './',except_dir = [],except_file = []):
-        zip_file_path(source_path, target_path, target_name, except_dir, except_file)
+def ZIPCODE(target_path = './',target_name = 'test.zip',source_path = './',except_dir = [],except_file = []):
+    zip_file_path(source_path, target_path, target_name, except_dir, except_file)
 
 
